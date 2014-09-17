@@ -90,8 +90,40 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-
   background-color: rgba(127, 219, 255, 0.6);
+}
+
+.chart__bar {
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+  -moz-filter: brightness(90%);
+  -o-filter: brightness(90%);
+  -ms-filter: brightness(90%);
+}
+
+.chart__bar:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+  -moz-filter: brightness(110%);
+  -o-filter: brightness(110%);
+  -ms-filter: brightness(110%);
+}
+
+/*
+.chart__bar {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.chart__bar:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+*/
+
+.chart__item:hover {
+  background-color: rgba(227, 236, 255, 0.2);
+
 }
 
 .chart__count {
