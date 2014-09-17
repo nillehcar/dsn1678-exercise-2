@@ -1,10 +1,8 @@
 html {
   margin: 0;
   padding: 0;
-
   background-color: #6b6e80;
   box-sizing: border-box;
-
   color: #fff;
   font: normal 100%/1.5 sans-serif;
 }
@@ -96,6 +94,15 @@ a.chart__link:hover {
   right: 0;
   top: 0;
   background-color: rgba(127, 219, 255, 0.6);
+  -webkit-animation: slideup .25s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-delay: .25s; 
+  -webkit-animation-direction: reverse;
+}
+
+@-webkit-keyframes slideup {
+    0% {top: 0%;}
+    100% {top: 100%;}
 }
 
 .chart__bar:hover {
