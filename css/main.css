@@ -94,13 +94,9 @@ a.chart__link:hover {
   right: 0;
   top: 0;
   background-color: rgba(127, 219, 255, 0.6);
-  -webkit-animation: slideup .25s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-delay: .25s; 
+  -webkit-animation: slideup .25s ease;
   -webkit-animation-direction: reverse;
   -webkit-transition: background-color .5s linear;
-  -moz-transition: background-color .5s linear;
-  -o-transition: background-color .5s linear;
   transition: background-color .5s linear;
 }
 
